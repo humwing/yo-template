@@ -1,0 +1,16 @@
+{
+  "threshold": 0.5,
+  "blame": true,
+  "format": "javascript,typescript,tsx,css,sass,less,scss",
+  "reporters": ["html", "console", "badge"],
+  "ignore": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.git/**",
+    "**/.next/**",
+    "**/.vscode/**",
+    "**/.husky**"
+  ],
+  "absolute": true
+}

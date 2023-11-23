@@ -1,0 +1,23 @@
+{
+  "name": "generator-xtc-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "next",
+    "template"
+  ],
+  "files": [
+    "generators"
+  ],
+  "type": "module",
+  "author": "mwing",
+  "license": "MIT",
+  "dependencies": {
+    "semver": "^7.5.4",
+    "yeoman-generator": "^7.1.1"
+  }
+}

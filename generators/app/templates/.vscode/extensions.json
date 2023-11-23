@@ -1,0 +1,36 @@
+{
+  "recommendations": [
+    // 统一编辑器配置https://editorconfig.org/
+    "editorconfig.editorconfig",
+    // eslint https://eslint.org/
+    "dbaeumer.vscode-eslint",
+    // eslint中文规则说明
+    "maggie.eslint-rules-zh-plugin",
+    // prettier https://prettier.io/
+    "esbenp.prettier-vscode",
+    // 标签自动闭合
+    "formulahendry.auto-close-tag",
+    // 标签自动重命名
+    "formulahendry.auto-rename-tag",
+    // 注释插件, 可以高亮各种注释
+    "aaron-bond.better-comments",
+    // vscode简体中文
+    "MS-CEINTL.vscode-language-pack-zh-hans",
+    // 注释锚点，例如// TODO，在代码里面配置后可以在侧边栏快速定位到备注
+    "Gruntfuggly.todo-tree",
+    // 翻译注释，鼠标放英文注释上会直接翻译中文，可以中英对照
+    "intellsmi.comment-translate",
+    // Material图标主题
+    "PKief.material-icon-theme",
+    // 打开多个vscode可以分颜色，这样就不怕搞不清楚打开的是哪个了
+    "stuart.unique-window-colors",
+    // 阿里通义灵码代码提示插件
+    "Alibaba-Cloud.tongyi-lingma",
+    // 代码复杂度统计
+    "kisstkondoros.vscode-codemetrics",
+    // 正则表达式预览
+    "chrmarti.regex",
+    // stylelint https://stylelint.io/
+    "stylelint.vscode-stylelint"
+  ]
+}

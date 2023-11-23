@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+# 校验分支名
+if [ git branch ]; then
+  # 初始化的时候没有分支名称，validate-branch-name会报错
+  npx validate-branch-name
+fi
+npx lint-staged

@@ -1,0 +1,49 @@
+---
+APPLY_FIXES: all
+ENABLE_LINTERS:
+  - TSX_ESLINT
+  - JSON_PRETTIER
+  - HTML_HTMLHINT
+  - GRAPHQL_GRAPHQL_SCHEMA_LINTER
+  - ENV_DOTENV_LINTER
+  - CSS_STYLELINT
+  - CSS_SCSS_LINT
+  - YAML_PRETTIER
+  - YAML_YAMLLINT
+  - DOCKERFILE_HADOLINT
+  - EDITORCONFIG_EDITORCONFIG_CHECKER
+  - COPYPASTE_JSCPD
+  - REPOSITORY_GIT_DIFF
+PRE_COMMANDS:
+  - command: npm install "@commitlint/cli" "@commitlint/config-conventional" "@next/eslint-plugin-next" "@styled/typescript-styled-plugin" "@types/node" "@types/react" "@types/react-dom" "@typescript-eslint/eslint-plugin" "@typescript-eslint/parser" "cross-env" "eslint" "eslint-config-prettier" "eslint-import-resolver-typescript" "eslint-plugin-import" "eslint-plugin-react" "eslint-plugin-react-hooks" "eslint-plugin-yml" "husky" "is-ci" "jscpd" "lint-staged" "postcss" "postcss-html" "postcss-less" "prettier" "stylelint" "stylelint-config-rational-order" "stylelint-config-sass-guidelines" "stylelint-config-standard" "stylelint-config-standard-scss" "typescript" "typescript-eslint-language-service" "validate-branch-name" "yaml-eslint-parser" "react-dom" "next" "react"
+SHOW_ELAPSED_TIME: true
+FILEIO_REPORTER: false
+YAML_YAMLLINT_DISABLE_ERRORS: true
+YAML_PRETTIER_DISABLE_ERRORS: true
+FILTER_REGEX_EXCLUDE: '(\.git/|\.husky/|\.vscode/|node_modules/|tsconfig\.json|\.d\.ts)'
+CSS_STYLELINT_FILE_EXTENSIONS:
+  - .css
+  - .scss
+  - .less
+  - .sass
+  - .postcss
+TSX_ESLINT_FILE_EXTENSIONS:
+  - .js
+  - .cjs
+  - .mjs
+  - .jsx
+  - .ts
+  - .mts
+  - .cts
+  - .tsx
+EDITORCONFIG_EDITORCONFIG_CHECKER_FILTER_REGEX_EXCLUDE: (\.json)
+TEXT_REPORTER: true
+TEXT_REPORTER_SUB_FOLDER: linters_logs
+CONSOLE_REPORTER: true
+CONSOLE_REPORTER_SECTIONS: true
+OUTPUT_DETAIL: detailed
+GITLAB_COMMENT_REPORTER: true
+GITHUB_STATUS_REPORTER: true
+EDITORCONFIG_EDITORCONFIG_CHECKER_DISABLE_ERRORS: true
+TSX_ESLINT_CLI_LINT_MODE: project
+CLI_LINT_MODE: project
